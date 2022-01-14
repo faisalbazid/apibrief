@@ -1,1 +1,1 @@
-# apibrief
+# https://faisalbazid.github.io/apibrief/
