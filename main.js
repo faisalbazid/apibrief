@@ -32,9 +32,9 @@ document.getElementById("countries").innerHTML = options;
 
  }
 
- function displayCountryInfo(countryByAlpha3Code){
+ function displayCountryInfo(test){
 
-  var countryData = countries.find(country => country.alpha3Code === countryByAlpha3Code);
+  var countryData = countries.find(country => country.alpha3Code === test);
  
   
    document.getElementById("capital").innerHTML = countryData.capital;
